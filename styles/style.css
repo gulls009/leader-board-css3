@@ -1,0 +1,33 @@
+ /* Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Patrick+Hand&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+ /* utilities and others */
+ body {
+     font-family: 'Poppins', sans-serif;
+     background: #f3f1ff;
+ }
+
+ .container {
+     background-color: #ffffff;
+
+ }
+
+ /* top players styles */
+ .players {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     /* grid-template-columns: 1fr 1fr 1fr; */
+
+ }
+
+ .player {
+     display: flex;
+     align-items: center;
+     gap: 16px;
+
+ }
+
+ .players img {
+     width: 56px;
+     height: 56px;
+ }
